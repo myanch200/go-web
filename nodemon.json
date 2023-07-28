@@ -1,0 +1,7 @@
+{
+    "watch": ["**/*.go", "views/**/*.django", "public/**/*.*"],
+    "ext": "go,django,css,js,html",
+    "ignore": ["vendor/*", "node_modules/*"],
+    "exec": "go run app/server.go",
+    "signal": "SIGTERM"
+  }

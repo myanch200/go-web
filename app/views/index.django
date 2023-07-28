@@ -1,0 +1,6 @@
+{%include "base.django" %}
+
+{% block content %}
+   <h1>Hello from go lang</h1>
+   <p class="text-sky-500"> If this text is visible, then go lang is working fine, also if the text is blue, then tailwind is working fine</p> 
+{% endblock %}
